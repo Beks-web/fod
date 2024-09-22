@@ -1,0 +1,43 @@
+.all {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.comment {
+  display: flex;
+  flex-direction: row;
+  font-size: small;
+}
+.comment img {
+  position: absolute;
+}
+.name {
+  display: flex;
+
+  position: relative;
+  padding-left: 50px;
+
+  display: flex;
+  flex-direction: column;
+}
+.first {
+  border: 3px solid;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  background: linear-gradient(grey, white);
+}
+.secend {
+  border: 3px solid;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  background: linear-gradient(grey, white);
+}
+.third {
+  border: 3px solid;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  background: linear-gradient(grey, white);
+}
